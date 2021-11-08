@@ -13,6 +13,7 @@
 		D6DAF9D02739119E0037EFC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DAF9CE2739119E0037EFC5 /* Main.storyboard */; };
 		D6DAF9D2273911A50037EFC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DAF9D1273911A50037EFC5 /* Assets.xcassets */; };
 		D6DAF9D5273911A50037EFC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DAF9D3273911A50037EFC5 /* LaunchScreen.storyboard */; };
+		D6DAF9DD273956500037EFC5 /* UISwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAF9DC273956500037EFC5 /* UISwitchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D6DAF9D1273911A50037EFC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6DAF9D4273911A50037EFC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6DAF9D6273911A50037EFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DAF9DC273956500037EFC5 /* UISwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D6DAF9C82739119E0037EFC5 /* AppDelegate.swift */,
 				D6DAF9CA2739119E0037EFC5 /* SceneDelegate.swift */,
 				D6DAF9CC2739119E0037EFC5 /* ViewController.swift */,
+				D6DAF9DC273956500037EFC5 /* UISwitchViewController.swift */,
 				D6DAF9CE2739119E0037EFC5 /* Main.storyboard */,
 				D6DAF9D1273911A50037EFC5 /* Assets.xcassets */,
 				D6DAF9D3273911A50037EFC5 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				D6DAF9CD2739119E0037EFC5 /* ViewController.swift in Sources */,
 				D6DAF9C92739119E0037EFC5 /* AppDelegate.swift in Sources */,
+				D6DAF9DD273956500037EFC5 /* UISwitchViewController.swift in Sources */,
 				D6DAF9CB2739119E0037EFC5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,10 +8,31 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var ageLabel: UILabel!
+    @IBOutlet weak var mySlider: UISlider!
+    @IBOutlet weak var image: UIImageView!
+    @IBAction func growUp(_ sender: UISlider) {
+        
+        let age = Int(mySlider.value)
+        ageLabel.text = "\(age)歲"
+        
+        if age >= 0 && age <= 3{
+            image.image = UIImage(named: "baby")
+        }else if age >= 4 && age <= 15{
+            image.image = UIImage(named: "boy")
+        }else{
+            image.image = UIImage(named: "man")
+        }
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        mySlider.setThumbImage(UIImage(named: "baby_bottle"), for: .normal)
+        
     }
 
 
